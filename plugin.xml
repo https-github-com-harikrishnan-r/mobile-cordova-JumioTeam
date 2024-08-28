@@ -32,11 +32,7 @@
             <array><string>TAG</string></array>
         </config-file>
 
-        <preference name="NFC_USAGE_DESCRIPTION"
-            default="This will allow ${PRODUCT_NAME} to scan NFC-capable documents."/>
-        <config-file target="*-Info.plist" parent="NFCReaderUsageDescription">
-            <string>$NFC_USAGE_DESCRIPTION</string>
-        </config-file>
+    
 
         <podspec>
             <config>
